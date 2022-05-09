@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class MonthConverterSwitch {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
+        String userInput;
+
 
         System.out.println("Please enter a number between 1 and 12 inclusive:");
         String userInput = myScanner.nextLine();
